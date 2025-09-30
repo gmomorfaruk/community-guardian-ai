@@ -1,0 +1,32 @@
+/* Basic styling for the whole page */
+.App {
+  text-align: center;
+  background-color: #282c34; /* Dark background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* The SOS Button Style */
+.sos-button {
+  background-color: #e63946; /* A strong red color */
+  border: none;
+  border-radius: 50%; /* Makes it a perfect circle */
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 20px #e63946; /* Gives it a glow */
+  transition: transform 0.1s ease;
+}
+
+/* A little effect for when you press the button */
+.sos-button:active {
+  transform: scale(0.95);
+}
